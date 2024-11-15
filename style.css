@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize; 
+    text-decoration: none;
+}
+
+header {
+    
+    background-image: url(Imagenes/tierra5.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+
+    max-width: 1000;
+    margin: 0 auto;
+}
+
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    z-index: 1000;
+    transition: transform 0.5s ease; 
+}
+
+.menu .AloNan{
+    font-weight:bold;
+    font-size: 35px;
+    color: rgb(57, 116, 152);
+    transform: scale(1.3);
+      
+}
+
+.header-text {
+    text-align: center;
+    width: 700;
+}
+
+.header-text h1{
+    color:rgb(246, 246, 246);
+    font-size: 60px; 
+ }
+ 
+ .header-text p {
+    color:rgb(210, 201, 201);
+    font-size: 15px;
+    margin-top: 30px;
+ }
+
+
+ .btn-1 {
+    display:inline-block;
+    background-color: rgb(41, 41, 41);
+    margin-top: 30px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: rgb(243, 244, 244);
+ }
+
+ .btn-1:hover {
+    background-color:rgb(119, 119, 119);
+ }
+
+
+ .btn-2 {
+   display:inline-block;
+   background-color: rgb(254, 253, 253);
+   margin-top: 30px;
+   padding: 15px 25px;
+   border-radius: 25px;
+   color: rgb(10, 10, 10);
+}
+
+
+
+ .btn-3 {
+    display:inline-block;
+    background-color: rgb(254, 253, 253);
+    margin-top: 30px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: rgb(10, 10, 10);
+ }
+
+
+ .btn-4 {
+    display: inline-block;
+    background-color: rgb(254, 253, 253);
+    margin-top: 30px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: rgb(10, 10, 10);
+ }
+
+
+ .btn-5 {
+   display:block;
+   background-color: rgb(41, 41, 41);
+   margin-top: 25px;
+   padding: 15px 25px;
+   border-radius: 5px;
+   color: rgb(243, 244, 244);
+}
+
+.btn-5:hover {
+   background-color: rgb(119, 119, 119);
+}
+
+
+.btn-6 {
+   display: inline-block;
+   background-color: rgb(254, 253, 253);
+   margin-top: 30px;
+   padding: 15px 25px;
+   border-radius: 25px;
+   color: rgb(10, 10, 10);
+}
+
+
+
+.btn-7 {
+   display: inline-block;
+   background-color: rgb(254, 253, 253);
+   margin-top: 30px;
+   padding: 15px 25px;
+   border-radius: 25px;
+   color: rgb(10, 10, 10);
+}
+
+
+.btn-8 {
+   display: inline-block;
+   background-color: rgb(254, 253, 253);
+   margin-top: 30px;
+   padding: 15px 25px;
+   border-radius: 25px;
+   color: rgb(10, 10, 10);
+}
+
+
+.btn-9 {
+   display:block;
+   background-color: rgb(41, 41, 41);
+   margin-top: 25px;
+   padding: 15px 25px;
+   border-radius: 5px;
+   color: rgb(243, 244, 244);
+}
+
+.btn-9:hover {
+   background-color: rgb(119, 119, 119);
+}
+
+
+.btn-10 {
+   display: inline-block;
+   background-color: rgb(254, 253, 253);
+   margin-top: 30px;
+   padding: 15px 25px;
+   border-radius: 25px;
+   color: rgb(10, 10, 10);
+}
+
+
+.btn-11 {
+   display: inline-block;
+   background-color: rgb(254, 253, 253);
+   margin-top: 30px;
+   padding: 15px 25px;
+   border-radius: 25px;
+   color: rgb(10, 10, 10);
+}
+
+
+.btn-12 {
+   display:block;
+   background-color: rgb(41, 41, 41);
+   margin-top: 25px;
+   padding: 15px 25px;
+   border-radius: 5px;
+   color: rgb(243, 244, 244);
+}
+
+.btn-12:hover {
+   background-color: rgb(119, 119, 119);
+}
+
+
+.btn-13 {
+   display: inline-block;
+   background-color: rgb(254, 253, 253);
+   margin-top: 30px;
+   padding: 15px 25px;
+   border-radius: 25px;
+   color: rgb(10, 10, 10);
+}
+
+
+.btn-14 {
+   display: inline-block;
+   background-color: rgb(254, 253, 253);
+   margin-top: 30px;
+   padding: 15px 25px;
+   border-radius: 25px;
+   color: rgb(10, 10, 10);
+}
+
+@media screen and (max-width: 1000px){
+
+   .menu .navbar ul {
+       width: 100%;
+   }
+
+   .container {
+       width: 100%;
+   }
+
+@media screen and (max-width: 370px){
+
+   .menu .navbar ul {
+       width: 100%;
+   }
+
+   .container {
+       width: 100%;
+   }
+
+
+}
